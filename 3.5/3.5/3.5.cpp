@@ -33,7 +33,7 @@ int main()
     }
 
     std::cout << "Введите элементы второго листа: ";
-    for (int i{}; i < size1; ++i)
+    for (int i{}; i < size2; ++i)
     {
         int val{}; std::cin >> val;
         L2.push_back(val);
